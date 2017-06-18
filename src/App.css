@@ -4,60 +4,9 @@
 
 .App-header {
   background: #141E30;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-height: 200px;
-  padding: 30px 5px;
-  color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
-  position: fixed;
-  z-index: 2;
-  top: 0;
-}
-
-.displayingMsg {
-  color: grey;
-  font-weight: lighter;
-}
-
-.App-intro {
-  font-size: medium;
-  font-weight: 100;
-  margin: 400px 20px 30px 20px;
-  color: grey;
-}
-
-.venueList {
-  margin: 230px 0 10px 0;
-  color: #243B55;
-}
-
-.loader {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-}
-
-.toTop {
-  border: 1px solid #333;
-  padding: 20px;
-  border-radius: 50%;
-  background-color: #333;
-  color: white;
-  cursor: pointer;
-  opacity: 0.7;
-}
-
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background: #141E30;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-height: 200px;
+  background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 200px;
   padding: 30px 5px;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
