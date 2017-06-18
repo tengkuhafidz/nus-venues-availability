@@ -82,7 +82,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <div className="col-md-offset-2 col-md-8 ">
-          <h1> NUS Venue Availability </h1>
+          <h1> NUS Venues Availability </h1>
           <FormGroup >
             <InputGroup>
               <InputGroup.Addon className="hidden-xs">
