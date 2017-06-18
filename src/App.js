@@ -81,8 +81,10 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
+          <span className="links">Book <a href="https://aces.nus.edu.sg/fbs/jsp/index.jsp" target="_blank">Discussion Rooms</a> or <a href="https://utownfbs.nus.edu.sg/utown/apptop.aspx" target="_blank">UTown Facilities</a></span>
+
           <div className="col-md-offset-2 col-md-8 ">
-          <h1> NUS Venues Availability </h1>
+          <h1 className=""> NUS Venues Availability </h1>
           <FormGroup >
             <InputGroup>
               <InputGroup.Addon className="hidden-xs">
@@ -108,7 +110,7 @@ class App extends Component {
         </div>
         <div className="venueList">
           <div className="col-md-offset-2 col-md-8 col-sm-12">
-            <p className="displayingMsg">Displaying times when there are no lessons at the venue</p>
+            <p className="displayingMsg">Displaying times when there are no lessons at the venue...</p>
             <ListGroup className="text-left">
               {this.renderVenues()}
             </ListGroup>
